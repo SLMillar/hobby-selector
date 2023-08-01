@@ -241,7 +241,7 @@ To add more hobby options to your program, you will need to add more conditions 
 
 Click on the `+` symbol at the bottom of the `if... then` block. This will create an `else` block. 
 
---- /task -
+--- /task ---
 
 --- task ---
 
