@@ -1,13 +1,17 @@
-### Rough plan
-1. Showcase what they will make - embed?? include instructions on how to use
-2. Open MakeCode, tour of the simulator
-3. Show Icon - get the micro:bit doing something
-4. Choose activities
-5. Selection
-6. Random choice
-7. Clear screen
-8. Connect and pair micro:bit
+This is a **Discover** project, this project will help you explore what the **micro:bit** can do and decide whether you want to learn more. 
 
+### What you will make
+
+Do you ever find yourself wondering what to do with your free time? You can use the micro:bit to help you make those decisions. 
+
+In this project you are going to make a **random hobby selector**. 
+
+You will: 
++ Use variables to store data
++ Draw icons to the LEDs
++ Use `if... then` blocks to select which icons to show
++ Use gestures and buttons
++ Randomly choose a hobby
 
 ### Opening MakeCode
 
@@ -165,7 +169,7 @@ Drag the `set [activity] to 0` block inside of the `onstart` block.
 
 --- /task ---
 
-### Which activity will it be?
+### Which hobby will it be?
 
 Next you are going to add the code that will show which activity the micro:bit has chosen. 
 
@@ -221,10 +225,212 @@ Drag your `show leds` block **inside** the `if... then` block.
 
 **Test** Run your program, you should see that nothing appears on the LEDs.
 
-**Change** the value in your `set 'activity' to 0` to set the variable to 1.
+**Change** the value in your `set 'activity' to 0` to set the variable to `1` instead.
 
 **Run** the program again and you should see the icon appear. 
 
 **Make sure to change activity back to `0` afterwards.**
 
 --- /task ---
+
+### Adding more hobbies
+
+To add more hobby options to your program, you will need to add more conditions to your `if... then` block.
+
+--- task ---
+
+Click on the `+` symbol at the bottom of the `if... then` block. This will create an `else` block. 
+
+--- /task -
+
+--- task ---
+
+Click on the `+` symbol below the  `else` block. This will create an `else if... then` block. Do this one more time so you have two `else if... then` blocks.
+
+--- /task ---
+
+--- task ---
+
+Now remove the `else` block, click on the `-` symbol next to the `else` block.
+
+![Using the + symbol, three else if blocks are added to a condition. Finally, the else is removed from the end by clicking the - symbol next to it](images/adding-ifs.gif)
+
+--- /task ---
+
+--- task ---
+
+Right click on the `condition` block. Click `Duplicate` to make a copy of it.
+
+--- /task ---
+
+--- task ---
+
+Drag the duplicated `condition` block into the first `else if... then` block. Then change the number `1` to a `2`.
+
+--- /task ---
+
+--- task ---
+
+Duplicate the `condition` one more time and drag it into the second `else if... then` block. Then change the number to a `3`.
+
+![TODO - replace with embedded blocks](images/elseif-then.png)
+
+--- /task ---
+
+### Styling your hobbies
+
+You will select more icons to represent the hobbies that the device will randomise for you. 
+
+--- task ---
+
+**Choose:** Three pictures to represent your hobbies.
+
+You can use the `show icon` block or create your own icon using the `show leds` block.
+
+--- collapse ---
+
+---
+title: Using the show leds block
+---
+
+Inside the `Basic` menu, drag the `show leds` block below an `else if... then` block to use it.
+
+![TODO - replace with embedded blocks](images/show-leds.png)
+
+You can click on each of the squares to draw your picture.
+
+![TODO - replace with embedded blocks](images/draw-icon.png)
+
+--- /collapse ---
+
+--- /task ---
+
+### Choose a random hobby
+
+Use the `shake` gesture to randomly select a hobby for you.
+
+--- task ---
+
+Drag the `on shake` block from the `input` menu.
+
+![TODO - replace with embedded blocks](images/on-shake.png)
+
+--- /task ---
+
+--- task ---
+
+From the `variables` menu, drag the `set activity` block inside the `on shake` block.
+
+--- /task ---
+
+--- task ---
+
+From the `math` menu, drag the `pick random 0 to 10` block. Place it inside the `set activity` block.
+
+![TODO - replace with embedded blocks](images/pick-random.png)
+
+Change the numbers from `0 to 10` to `1 to 3`.
+
+![TODO - replace with embedded blocks](images/change-random.png)
+
+--- /task ---
+
+### Clear the screen
+
+Clear the screen if you want to randomise a new hobby.
+
+--- task ---
+
+Use the `on logo pressed` block from the `input` menu.
+
+![TODO - replace with embedded blocks](images/onlogo-pressed.png)
+
+--- collapse ---
+
+---
+title: V1 microbit users
+---
+
+The logo button is only available on the V2 of the micro:bit. Instead, use the `on button A pressed` block from the `input` menu.
+
+![TODO - replace with embedded blocks](images/button-a.png)
+
+--- /collapse ---
+
+--- /task ---
+
+--- task ---
+
+Drag the `clear screen` block from the `basic` menu and place it inside the `on logo pressed` block.
+
+![TODO - replace with embedded blocks](images/clear-screen.png)
+
+--- /task ---
+
+--- task ---
+
+Now drag the `set activity` block from the `variables` menu and place it below the `clear screen` block. 
+
+![TODO - replace with embedded blocks](images/set-activity.png)
+
+--- /task ---
+
+--- task ---
+**Run** the program to check that all your code is working. 
+
+**Click** the shake icon on the microbit to randomly choose a hobby. 
+
+**Press** the logo or A button to make sure the screen clears. 
+
+--- /task ---
+
+--- save --- 
+
+### Uploading your program to the micro:bit
+
+**Save** and download your code so you can test it out on a physical micro:bit.
+
+--- task ---
+
+Click on the `Download` button below the micro:bit simulator. 
+
+![Highlighted download button on the MakeCode editor](images/download-button.png)
+
+You will be asked to plug in your micro:bit, do that now, then click **Continue**. 
+
+Now to Pair your micro:bit, click **Pair** and select your device from the list that appears, then click **Connect**.
+
+![Select micro:bit dailog box showing a BBC micro:bit device.](images/select-microbit.png)
+
+--- collapse ---
+
+---
+title: My microbit won't pair
+---
+
+If your micro:bit won't pair using the method above, it will download the program for you. 
+
+**Windows:** Open **File Explorer** and check that you can see `MICROBIT` under `This PC` on the left hand side. If it is there, drag the downloaded `.HEX` file into the micro:bit, your program will upload onto the device and you should be able to use it. 
+
+**MacOS:** Open **Finder** and check that you can see `MICROBIT` under `Locations` on the left hand side. If it is there, drag the downloaded `.HEX` file into the micro:bit, your program will upload onto the device and you should be able to use it.
+
+If the device isn't showing up, try unplugging it and plugging it back in. You can also try a different USB slot or USB cable if they are available.
+
+--- /collapse ---
+
+--- /task ---
+
+--- task ---
+
+**Test** Run your program on the physical micro:bit. You should now see icons randomly chosen when you shake the device.
+
+--- /task ---
+
+### Upgrade your project
+
+You can upgrade your project to make it more engaging by doing the following:
+
++ Add more hobbies so you can have a wider range to choose from.
++ Increase the number of `else if... then` blocks so you can add more icons
++ Increase the random range to more than three to match adding more hobbies
++ Add a timer countdown to track each hobby you complete.
