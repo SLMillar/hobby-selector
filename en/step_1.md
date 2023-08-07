@@ -8,10 +8,10 @@ In this project you are going to make a **random hobby selector**.
 
 You will: 
 + Use variables to store data
-+ Draw icons to the LEDs
++ Display icons on the LEDs
 + Use `if... then` blocks to select which icons to show
 + Use gestures and buttons
-+ Randomly choose a hobby
++ Use random numbers to make choices
 
 ### Opening MakeCode
 
@@ -62,7 +62,7 @@ Created by the micro:bit Foundation, the **MakeCode editor** has everything you 
 On the left side there is a **simulator**, this contains a virtual micro:bit that you can use to test your code! 
 
 It has all the features and buttons found on a V2 micro:bit, including:
-+ LED Display
++ LED display
 + Speaker
 + Microphone
 + Input buttons
@@ -70,9 +70,9 @@ It has all the features and buttons found on a V2 micro:bit, including:
     + B
     + Logo
 
-In the centre there is the **blocks panel** which is colour coded and allows you to access various code blocks.
+In the centre there is the **blocks panel** which is colour-coded and allows you to access various code blocks.
 
-On the right side there is a main **code editor panel** to drag and drop blocks into when creating your program.
+On the right side is the **code editor panel** to drag and drop blocks into when creating your program.
 
 ### Show Icon
 
@@ -82,7 +82,7 @@ You are going to use the `forever` block to see how the LEDs on the simulator wo
 
 --- task ---
 
-Click on the Basic blocks in the Blocks panel. This will expand to show you the groups of blocks available.
+Click on the Basic blocks group in the Blocks panel. This will expand to show you the blocks available.
 
 ![](images/basic-blocks.png)
 
@@ -157,13 +157,13 @@ Call your new variable `activity`.
 
 --- /task ---
 
-You will now see that there are new blocks you can use to call on and change the value stored in the `activity` variable. 
+You will now see that there are new blocks you can use to set, change or use the value stored in the `activity` variable. 
 
-![The Variable block menu - with new block to set the value of activity, to change the value of activity and to use the value of acitivity in your code.](images/variable-blocks.png)
+![The Variable block menu - with new blocks to set the value of the activity variable, to change the value of the activity variable and to use the value of the activity variable in your code.](images/variable-blocks.png)
 
 --- task ---
 
-Drag the `set [activity] to 0` block inside of the `onstart` block.
+Drag the `set [activity] to 0` block inside the `onstart` block.
 
 ![TODO - Change this image for embedded blocks](images/start-set-variable.png)
 
@@ -179,7 +179,7 @@ You will use `if... then` blocks to do this.
 
 Open the **Logic** menu and choose the `if 'true' then` block. 
 
-![The Logic menu open with the top "if 'true' then" block highlighted](images/if-block.png)
+![The Logic menu open with the "if 'true' then" block highlighted](images/if-block.png)
 
 Drag it inside the `forever` loop block **above** your icon block. 
 
@@ -187,7 +187,7 @@ Drag it inside the `forever` loop block **above** your icon block.
 
 --- /task ---
 
-Now you are going to make it so that your icon shows only if activity is set to `1`.
+Now you are going to make it so that your icon shows only if the activity variable value is `1`.
 
 --- task ---
 
@@ -195,7 +195,7 @@ Open the **Logic** menu and grab the `0 '=' 0` **condition block**.
 
 ![The Logic menu with the condition block "0 '=' 0" highlighted](images/condition-block.png)
 
-Drag that over the `true` part of your `if` block and place it down. 
+Drag that over the `true` part of your `if` block and drop it there. 
 
 ![](images/logic-in-place.png)
 
@@ -207,7 +207,7 @@ Head back to the **Variables** menu and grab the small block that says `activity
 
 Drag that block to the **first** 0 in your new condition block. 
 
-Change the `0` to a 1.
+Change the second `0` to a `1`.
 
 ![](images/condition-in-place.png)
 
@@ -215,7 +215,7 @@ Change the `0` to a 1.
 
 --- task ---
 
-Drag your `show leds` block **inside** the `if... then` block. 
+Drag your `show icon` block **inside** the `if... then` block. 
 
 ![TODO - replace with embedded blocks](images/block-inside.png)
 
@@ -225,11 +225,11 @@ Drag your `show leds` block **inside** the `if... then` block.
 
 **Test** Run your program, you should see that nothing appears on the LEDs.
 
-**Change** the value in your `set 'activity' to 0` to set the variable to `1` instead.
+**Change** the value in your `set 'activity' to 0` block (in the `on start` block) to set the variable to `1` instead of `0`.
 
 **Run** the program again and you should see the icon appear. 
 
-**Make sure to change activity back to `0` afterwards.**
+**Make sure to set the value of the activity variable back to `0` in the `on start` block.**
 
 --- /task ---
 
@@ -251,7 +251,7 @@ Click on the `+` symbol below the  `else` block. This will create an `else if...
 
 --- task ---
 
-Now remove the `else` block, click on the `-` symbol next to the `else` block.
+Now click on the `-` symbol next to the `else` block to remove the `else` block.
 
 ![Using the + symbol, three else if blocks are added to a condition. Finally, the else is removed from the end by clicking the - symbol next to it](images/adding-ifs.gif)
 
@@ -259,7 +259,9 @@ Now remove the `else` block, click on the `-` symbol next to the `else` block.
 
 --- task ---
 
-Right click on the `condition` block. Click `Duplicate` to make a copy of it.
+Right click on the whole `condition` block in the first `if... then` block. Click just to the left of the activity variable, or just to the right of the value `0` to make sure you select the whole block.
+
+Click `Duplicate` to make a copy of the whole block.
 
 --- /task ---
 
@@ -279,11 +281,11 @@ Duplicate the `condition` one more time and drag it into the second `else if... 
 
 ### Styling your hobbies
 
-You will select more icons to represent the hobbies that the device will randomise for you. 
+You will select more icons to represent the hobbies your micro:bit will randomise for you. 
 
 --- task ---
 
-**Choose:** Three pictures to represent your hobbies.
+**Choose:** Three images to represent your hobbies.
 
 You can use the `show icon` block or create your own icon using the `show leds` block.
 
@@ -297,7 +299,7 @@ Inside the `Basic` menu, drag the `show leds` block below an `else if... then` b
 
 ![TODO - replace with embedded blocks](images/show-leds.png)
 
-You can click on each of the squares to draw your picture.
+You can click on each of the squares to draw your picture. White squares will be lit on the micro:bit.
 
 ![TODO - replace with embedded blocks](images/draw-icon.png)
 
@@ -311,7 +313,7 @@ Use the `shake` gesture to randomly select a hobby for you.
 
 --- task ---
 
-Drag the `on shake` block from the `input` menu.
+Drag the `on shake` block from the `Input` menu.
 
 ![TODO - replace with embedded blocks](images/on-shake.png)
 
@@ -319,13 +321,13 @@ Drag the `on shake` block from the `input` menu.
 
 --- task ---
 
-From the `variables` menu, drag the `set activity` block inside the `on shake` block.
+From the `Variables` menu, drag the `set activity` block inside the `on shake` block.
 
 --- /task ---
 
 --- task ---
 
-From the `math` menu, drag the `pick random 0 to 10` block. Place it inside the `set activity` block.
+From the `Math` menu, drag the `pick random 0 to 10` block inside the `set activity` block.
 
 ![TODO - replace with embedded blocks](images/pick-random.png)
 
@@ -348,10 +350,10 @@ Use the `on logo pressed` block from the `input` menu.
 --- collapse ---
 
 ---
-title: V1 microbit users
+title: V1 micro:bit users
 ---
 
-The logo button is only available on the V2 of the micro:bit. Instead, use the `on button A pressed` block from the `input` menu.
+The logo button is only available on the V2 of the micro:bit. Instead, use the `on button A pressed` block from the `Input` menu.
 
 ![TODO - replace with embedded blocks](images/button-a.png)
 
@@ -361,7 +363,7 @@ The logo button is only available on the V2 of the micro:bit. Instead, use the `
 
 --- task ---
 
-Drag the `clear screen` block from the `basic` menu and place it inside the `on logo pressed` block.
+Drag the `clear screen` block from the `Basic` menu and place it inside the `on logo pressed` block.
 
 ![TODO - replace with embedded blocks](images/clear-screen.png)
 
@@ -369,7 +371,7 @@ Drag the `clear screen` block from the `basic` menu and place it inside the `on 
 
 --- task ---
 
-Now drag the `set activity` block from the `variables` menu and place it below the `clear screen` block. 
+Now drag the `set activity` block from the `Variables` menu and place it below the `clear screen` block. 
 
 ![TODO - replace with embedded blocks](images/set-activity.png)
 
@@ -378,9 +380,9 @@ Now drag the `set activity` block from the `variables` menu and place it below t
 --- task ---
 **Run** the program to check that all your code is working. 
 
-**Click** the shake icon on the microbit to randomly choose a hobby. 
+**Click** the shake icon on the micro:bit to randomly choose a hobby. 
 
-**Press** the logo or A button to make sure the screen clears. 
+**Press** the logo (or A button on the V1 micro:bit) to make sure the screen clears. 
 
 --- /task ---
 
@@ -400,21 +402,21 @@ You will be asked to plug in your micro:bit, do that now, then click **Continue*
 
 Now to Pair your micro:bit, click **Pair** and select your device from the list that appears, then click **Connect**.
 
-![Select micro:bit dailog box showing a BBC micro:bit device.](images/select-microbit.png)
+![Select micro:bit dialog box showing a BBC micro:bit device.](images/select-microbit.png)
 
 --- collapse ---
 
 ---
-title: My microbit won't pair
+title: My micro:bit won't pair
 ---
 
 If your micro:bit won't pair using the method above, it will download the program for you. 
 
-**Windows:** Open **File Explorer** and check that you can see `MICROBIT` under `This PC` on the left hand side. If it is there, drag the downloaded `.HEX` file into the micro:bit, your program will upload onto the device and you should be able to use it. 
+**Windows:** Open **File Explorer** and check that you can see `MICROBIT` under `This PC` on the left hand side. If it is there, drag the downloaded `.HEX` file to it, your program will upload onto your micro:bit and you should be able to use it.
 
-**MacOS:** Open **Finder** and check that you can see `MICROBIT` under `Locations` on the left hand side. If it is there, drag the downloaded `.HEX` file into the micro:bit, your program will upload onto the device and you should be able to use it.
+**MacOS:** Open **Finder** and check that you can see `MICROBIT` under `Locations` on the left hand side. If it is there, drag the downloaded `.HEX` file to it, your program will upload onto your micro:bit and you should be able to use it.
 
-If the device isn't showing up, try unplugging it and plugging it back in. You can also try a different USB slot or USB cable if they are available.
+If your micro:bit isn't showing up, try unplugging it and plugging it back in. You can also try a different USB port or USB cable if they are available.
 
 --- /collapse ---
 
@@ -432,5 +434,5 @@ You can upgrade your project to make it more engaging by doing the following:
 
 + Add more hobbies so you can have a wider range to choose from.
 + Increase the number of `else if... then` blocks so you can add more icons
-+ Increase the random range to more than three to match adding more hobbies
++ Increase the random range to more than three to match the number of added hobbies
 + Add a timer countdown to track each hobby you complete.
