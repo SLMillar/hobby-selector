@@ -13,6 +13,9 @@ You will:
 + Use gestures and buttons
 + Use random numbers to make choices
 
+
+![TODO - replace with embedded project]()
+
 ### Opening MakeCode
 
 To get started creating your micro:bit project, you will need to open the MakeCode editor.
@@ -185,8 +188,7 @@ Drag it inside the `forever` loop block **above** your icon block.
 
 We have chosen a ghost to represent a gaming activity.
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_3fXJCKJ7LTAu" allowfullscreen="allowfullscreen" frameborder="0"></iframe></div>
-
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_3fXJCKJ7LTAu" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -200,7 +202,7 @@ Open the **Logic** menu and grab the `0 '=' 0` **condition block**.
 
 Drag that over the `true` part of your `if` block and drop it there. 
 
-![](images/logic-in-place.png)
+![The Logic menu showing the '0 = 0' block highlighted](images/logic-in-place.png)
 
 --- /task ---
 
@@ -212,7 +214,7 @@ Drag that block to the **first** `0` in your new condition block.
 
 Change the second `0` to a `1`.
 
-![TODO - replace with GHOST AND then embedded blocks](images/condition-in-place.png)
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_CPPLmMhR29Cg" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -440,10 +442,9 @@ When you have downloaded your program to your physical micro:bit, it will run im
 
 ### Upgrade your project
 
-You can upgrade your project to make it more engaging by doing the following:
+You can upgrade your project to make it more engaging by:
 
 + Add more hobbies so you can have a wider range to choose from. Remember to:
   + Add a different symbol to display for each activity
   + Increase the number of `else if... then` blocks so you can add more icons
   + Increase the random range to more than three to match the number of added hobbies
-+ Add a timer countdown to track each hobby you complete.
