@@ -24,10 +24,10 @@ You will:
 Click on the embedded project.
 
 What happens if you shake the micro:bit?
-What happens if you click the A or B buttons?
-What happens if you click the logo? 
+What happens if you click the A or B buttons? 
+What happens if you click the logo?
 
-<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_MKuK1a7XWLcP" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_MKuK1a7XWLcP" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
 </div>
 </div>
