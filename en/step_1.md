@@ -185,7 +185,7 @@ Drag it inside the `forever` loop block **above** your icon block.
 
 We have chosen a ghost to represent a gaming activity.
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:10;bottom:10;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_3fXJCKJ7LTAu" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_3fXJCKJ7LTAu" allowfullscreen="allowfullscreen" frameborder="0" scrolling="no" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 
 --- /task ---
