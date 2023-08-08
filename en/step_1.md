@@ -60,7 +60,7 @@ Give your new project the name `hobby-selector` and click **Create**.
 
 Created by the micro:bit Foundation, the **MakeCode editor** has everything you need to get started coding on micro:bit. 
 
-![TODO - replace with embedded blocks](images/makecode-tour.png)
+![The MakeCode Editor window](images/makecode-tour.png)
 
 On the left side there is a **simulator**, this contains a virtual micro:bit that you can use to test your code! 
 
@@ -87,13 +87,13 @@ You are going to use the `forever` block to see how the LEDs on the simulator wo
 
 Click on the Basic blocks group in the Blocks panel. This will expand to show you the blocks available.
 
-![TODO - replace with embedded blocks](images/basic-blocks.png)
+![The Basic menu with the 'show icon' block highlighted](images/basic-blocks.png)
 
 Drag the `show icon` block and place it **inside** the `forever` block. 
 
 This should fit in place like a puzzle.
 
-![TODO - replace with embedded blocks](images/forver-showicon.png)
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_iVKhocCVxR3f" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -168,7 +168,7 @@ You will now see that there are new blocks you can use to set, change or use the
 
 Drag the `set [activity] to 0` block inside the `onstart` block.
 
-![TODO - Change this image for embedded blocks](images/start-set-variable.png)
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_YbT2My3k2aXu" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
