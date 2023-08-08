@@ -18,8 +18,6 @@ You will:
 ### Play ▶️
 
 --- task ---
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
 
 Click on the embedded project.
 
@@ -29,9 +27,6 @@ What happens if you click the logo?
 
 <div style="position:relative;height:300;padding-bottom:105%;overflow:hidden;">
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_gsk7kk1AJWXy" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe>
-</div>
-
-</div>
 </div>
 
 --- /task ---
