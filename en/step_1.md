@@ -24,12 +24,10 @@ You will:
 Click on the embedded project.
 
 What happens if you shake the micro:bit?
-
 What happens if you click the A or B buttons? 
-
 What happens if you click the logo?
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;">
+<div style="position:relative;height:300;padding-bottom:105%;overflow:hidden;">
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_gsk7kk1AJWXy" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe>
 </div>
 
