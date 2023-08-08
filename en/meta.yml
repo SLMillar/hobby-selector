@@ -1,6 +1,7 @@
-title: hobby-selector
+title: Hobby selector
 hero_image: images/banner.png
-description: default-project-template description
+description: 
+  Let your micro:bit choose a hobby for you
 version: 4
 listed: false
 copyedit: false
