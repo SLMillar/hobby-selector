@@ -57,7 +57,7 @@ Give your new project the name `hobby-selector` and click **Create**.
 
 Created by the micro:bit Foundation, the **MakeCode editor** has everything you need to get started coding on micro:bit. 
 
-![](images/makecode-tour.png)
+![TODO - replace with embedded blocks](images/makecode-tour.png)
 
 On the left side there is a **simulator**, this contains a virtual micro:bit that you can use to test your code! 
 
@@ -84,13 +84,13 @@ You are going to use the `forever` block to see how the LEDs on the simulator wo
 
 Click on the Basic blocks group in the Blocks panel. This will expand to show you the blocks available.
 
-![](images/basic-blocks.png)
+![TODO - replace with embedded blocks](images/basic-blocks.png)
 
 Drag the `show icon` block and place it **inside** the `forever` block. 
 
 This should fit in place like a puzzle.
 
-![](images/forver-showicon.png)
+![TODO - replace with embedded blocks](images/forver-showicon.png)
 
 --- /task ---
 
@@ -98,9 +98,7 @@ This should fit in place like a puzzle.
 
 Click the down arrow on the show icon block and choose any icon of your choice.
 
-![](images/show-icons.png)
-
-In this example we have chosen the `X` icon.
+![The show icon menu expanded to display all available icons](images/show-icons.png)
 
 --- /task ---
 
@@ -108,7 +106,9 @@ In this example we have chosen the `X` icon.
 
 **Test:** Click the play button on the emulator, the LED display should light up, showing your chosen icon.
 
-![](images/led-display.png)
+In this example we have chosen the `X` icon.
+
+![The micro:bit simulator displaying an 'X' icon on its LEDs with the code blocks showing on the right](images/led-display.png)
 
 Well done for getting the micro:bit to do something!
 
@@ -183,7 +183,9 @@ Open the **Logic** menu and choose the `if 'true' then` block.
 
 Drag it inside the `forever` loop block **above** your icon block. 
 
-![TO-DO - Replace with embedded blocks](images/if-block-in-place.png)
+We have chosen a ghost to represent a gaming activity.
+
+![TODO - Replace with GHOST AND then embedded blocks](images/if-block-in-place.png)
 
 --- /task ---
 
@@ -205,11 +207,11 @@ Drag that over the `true` part of your `if` block and drop it there.
 
 Head back to the **Variables** menu and grab the small block that says `activity`. 
 
-Drag that block to the **first** 0 in your new condition block. 
+Drag that block to the **first** `0` in your new condition block. 
 
 Change the second `0` to a `1`.
 
-![](images/condition-in-place.png)
+![TODO - replace with GHOST AND then embedded blocks](images/condition-in-place.png)
 
 --- /task ---
 
@@ -217,17 +219,21 @@ Change the second `0` to a `1`.
 
 Drag your `show icon` block **inside** the `if... then` block. 
 
-![TODO - replace with embedded blocks](images/block-inside.png)
+![TODO - replace with GHOST AND embedded blocks](images/block-inside.png)
 
 --- /task ---
 
 --- task ---
 
-**Test** Run your program, you should see that nothing appears on the LEDs.
+When you make a change to a code block, the simulator will restart.
 
-**Change** the value in your `set 'activity' to 0` block (in the `on start` block) to set the variable to `1` instead of `0`.
+**Test** When the program runs, you should see that nothing appears on the LEDs.
 
-**Run** the program again and you should see the icon appear. 
+In the `on start` block:
+
+**Change** the value from `0` to `1` in your `set 'activity' to 0` block.
+
+**Re-test** When the program runs again after your last change, you should see the icon appear. 
 
 **Make sure to set the value of the activity variable back to `0` in the `on start` block.**
 
@@ -253,7 +259,7 @@ Click on the `+` symbol below the  `else` block. This will create an `else if...
 
 Now click on the `-` symbol next to the `else` block to remove the `else` block.
 
-![Using the + symbol, three else if blocks are added to a condition. Finally, the else is removed from the end by clicking the - symbol next to it](images/adding-ifs.gif)
+![TODO: If activity = 1 AND change to GHOST symbol... Using the + symbol, three else if blocks are added to a condition. Finally, the else is removed from the end by clicking the - symbol next to it](images/adding-ifs.gif)
 
 --- /task ---
 
@@ -297,7 +303,7 @@ title: Using the show leds block
 
 Inside the `Basic` menu, drag the `show leds` block below an `else if... then` block to use it.
 
-![TODO - replace with embedded blocks](images/show-leds.png)
+![the Basic menu with the 'show leds' block highlighted](images/show-leds.png)
 
 You can click on each of the squares to draw your picture. White squares will be lit on the micro:bit.
 
@@ -315,7 +321,7 @@ Use the `shake` gesture to randomly select a hobby for you.
 
 Drag the `on shake` block from the `Input` menu.
 
-![TODO - replace with embedded blocks](images/on-shake.png)
+![The Input menu with the 'on shake' block highlighted](images/on-shake.png)
 
 --- /task ---
 
@@ -329,7 +335,7 @@ From the `Variables` menu, drag the `set activity` block inside the `on shake` b
 
 From the `Math` menu, drag the `pick random 0 to 10` block inside the `set activity` block.
 
-![TODO - replace with embedded blocks](images/pick-random.png)
+![The Math menu with the 'pick random 0 to 10' block highlighted](images/pick-random.png)
 
 Change the numbers from `0 to 10` to `1 to 3`.
 
@@ -343,9 +349,9 @@ Clear the screen if you want to randomise a new hobby.
 
 --- task ---
 
-Use the `on logo pressed` block from the `input` menu.
+Use the `on logo pressed` block from the `Input` menu.
 
-![TODO - replace with embedded blocks](images/onlogo-pressed.png)
+![![The Input menu with the 'on logo pressed' block highlighted](images/onlogo-pressed.png)
 
 --- collapse ---
 
@@ -355,7 +361,7 @@ title: V1 micro:bit users
 
 The logo button is only available on the V2 of the micro:bit. Instead, use the `on button A pressed` block from the `Input` menu.
 
-![TODO - replace with embedded blocks](images/button-a.png)
+![The Input menu with the 'on button A pressed' block highlighted](images/button-a.png)
 
 --- /collapse ---
 
@@ -378,11 +384,12 @@ Now drag the `set activity` block from the `Variables` menu and place it below t
 --- /task ---
 
 --- task ---
-**Run** the program to check that all your code is working. 
+
+**Test** When the program runs, check that all your code is working. 
 
 **Click** the shake icon on the micro:bit to randomly choose a hobby. 
 
-**Press** the logo (or A button on the V1 micro:bit) to make sure the screen clears. 
+**Press** the logo (or A button on the V1 micro:bit) to make sure the screen clears.
 
 --- /task ---
 
@@ -424,7 +431,9 @@ If your micro:bit isn't showing up, try unplugging it and plugging it back in. Y
 
 --- task ---
 
-**Test** Run your program on the physical micro:bit. You should now see icons randomly chosen when you shake the device.
+When you have downloaded your program to your physical micro:bit, it will run immediately.
+
+**Test** You should now see icons randomly chosen when you shake the micro:bit.
 
 --- /task ---
 
@@ -432,7 +441,8 @@ If your micro:bit isn't showing up, try unplugging it and plugging it back in. Y
 
 You can upgrade your project to make it more engaging by doing the following:
 
-+ Add more hobbies so you can have a wider range to choose from.
-+ Increase the number of `else if... then` blocks so you can add more icons
-+ Increase the random range to more than three to match the number of added hobbies
++ Add more hobbies so you can have a wider range to choose from. Remember to:
+  + Add a different symbol to display for each activity
+  + Increase the number of `else if... then` blocks so you can add more icons
+  + Increase the random range to more than three to match the number of added hobbies
 + Add a timer countdown to track each hobby you complete.
