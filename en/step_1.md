@@ -202,7 +202,7 @@ Open the **Logic** menu and grab the `0 '=' 0` **condition block**.
 
 Drag that over the `true` part of your `if` block and drop it there. 
 
-![The Logic menu showing the '0 = 0' block highlighted](images/logic-in-place.png)
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_CPPLmMhR29Cg" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -214,7 +214,7 @@ Drag that block to the **first** `0` in your new condition block.
 
 Change the second `0` to a `1`.
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_CPPLmMhR29Cg" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_FpsdqdfWx9cu" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -222,7 +222,7 @@ Change the second `0` to a `1`.
 
 Drag your `show icon` block **inside** the `if... then` block. 
 
-![TODO - replace with GHOST AND embedded blocks](images/block-inside.png)
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_CJoVdpb0YMFy" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -262,7 +262,7 @@ Click on the `+` symbol below the  `else` block. This will create an `else if...
 
 Now click on the `-` symbol next to the `else` block to remove the `else` block.
 
-![TODO: If activity = 1 AND change to GHOST symbol... Using the + symbol, three else if blocks are added to a condition. Finally, the else is removed from the end by clicking the - symbol next to it](images/adding-ifs.gif)
+![Using the + symbol, three else if blocks are added to a condition. Finally, the else is removed from the end by clicking the - symbol next to it](images/adding-ifs.gif)
 
 --- /task ---
 
@@ -284,7 +284,7 @@ Drag the duplicated `condition` block into the first `else if... then` block. Th
 
 Duplicate the `condition` one more time and drag it into the second `else if... then` block. Then change the number to a `3`.
 
-![TODO - replace with embedded blocks](images/elseif-then.png)
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_9h6MfxbmaFYu" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -310,7 +310,7 @@ Inside the `Basic` menu, drag the `show leds` block below an `else if... then` b
 
 You can click on each of the squares to draw your picture. White squares will be lit on the micro:bit.
 
-![TODO - replace with embedded blocks](images/draw-icon.png)
+![The 'show leds' block with a smiley face created in white squares](images/draw-icon.png)
 
 --- /collapse ---
 
@@ -342,7 +342,7 @@ From the `Math` menu, drag the `pick random 0 to 10` block inside the `set activ
 
 Change the numbers from `0 to 10` to `1 to 3`.
 
-![TODO - replace with embedded blocks](images/change-random.png)
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_HeDV38b0odfW" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -374,7 +374,7 @@ The logo button is only available on the V2 of the micro:bit. Instead, use the `
 
 Drag the `clear screen` block from the `Basic` menu and place it inside the `on logo pressed` block.
 
-![TODO - replace with embedded blocks](images/clear-screen.png)
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_RKbbriA5XD9a" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -382,7 +382,7 @@ Drag the `clear screen` block from the `Basic` menu and place it inside the `on 
 
 Now drag the `set activity` block from the `Variables` menu and place it below the `clear screen` block. 
 
-![TODO - replace with embedded blocks](images/set-activity.png)
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_9v9URDdYb0Hv" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
