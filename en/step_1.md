@@ -410,8 +410,6 @@ Now drag the `set activity` block from the `Variables` menu and place it below t
 
 --- /task ---
 
---- save --- 
-
 ### Downloading your program to the micro:bit
 
 **Save** and download your code so you can test it out on a physical micro:bit.
