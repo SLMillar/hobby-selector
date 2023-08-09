@@ -412,7 +412,7 @@ Now drag the `set activity` block from the `Variables` menu and place it below t
 
 --- save --- 
 
-### Uploading your program to the micro:bit
+### Downloading your program to the micro:bit
 
 **Save** and download your code so you can test it out on a physical micro:bit.
 
@@ -436,7 +436,7 @@ title: My micro:bit won't pair
 
 If your micro:bit won't pair using the method above, it will download the program for you. 
 
-**Windows:** Open **File Explorer** and check that you can see `MICROBIT` under `This PC` on the left hand side. If it is there, drag the downloaded `.HEX` file to it, your program will upload onto your micro:bit and you should be able to use it.
+**Windows:** Open **File Explorer** and check that you can see `MICROBIT` under `This PC` on the left hand side. If it is there, drag the downloaded `.HEX` file to it, your program will be saved to your micro:bit and you should be able to use it.
 
 **MacOS:** Open **Finder** and check that you can see `MICROBIT` under `Locations` on the left hand side. If it is there, drag the downloaded `.HEX` file to it, your program will upload onto your micro:bit and you should be able to use it.
 
