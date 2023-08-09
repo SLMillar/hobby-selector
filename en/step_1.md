@@ -20,7 +20,6 @@ You will:
 --- task ---
 
 What happens if you `shake` the micro:bit?
-What happens if you click the `A` or `B` buttons? 
 What happens if you click the `logo`?
 
 <div style="position:relative;height:100%;padding-bottom:125%;padding-top:0;overflow:hidden;">
