@@ -77,7 +77,7 @@ You are going to use the `forever` block to see how the LEDs on the simulator wo
 
 --- task ---
 
-Click on the Basic blocks group in the Blocks panel. This will expand to show you the blocks available.
+Click on the `Basic` block menu in the Blocks panel. This will expand to show you the blocks available.
 
 ![The Basic block menu with the 'show icon' block highlighted](images/basic-blocks.png)
 
@@ -99,7 +99,7 @@ Click the down arrow on the show icon block and choose any icon of your choice.
 
 --- task ---
 
-**Test:** Click the play button on the emulator, the LED display should light up, showing your chosen icon.
+**Test:** Click the play button on the simulator, the LED display should light up, showing your chosen icon.
 
 In this example we have chosen the `X` icon.
 
@@ -140,15 +140,15 @@ Create a variable that will be used to decide which activity you do.
 
 Open the `Variables` block menu, and click **Make a variable**.
 
-![The Variables block menu, open with the "Make a variable" button highlighted](images/variable-menu.png)
+![The Variables block menu, open with the 'Make a variable' button highlighted](images/variable-menu.png)
 
 --- /task ---
 
 --- task ---
 
-Call your new variable `activity`. 
+Name the new variable `activity`, then click the `Ok` button.
 
-![The "New Variable" name window, with the name activity written in the box](images/variable-name.png)
+![The 'New variable name' window, with the name 'activity' written in the box](images/variable-name.png)
 
 --- /task ---
 
@@ -188,11 +188,11 @@ Now you are going to make it so that your icon shows only if the activity variab
 
 --- task ---
 
-Open the **Logic** block menu and grab the `0 '=' 0` **condition block**. 
+From the `Logic` menu, drag out a comparison block `0 = 0`.
 
-![The Logic block menu with the condition block "0 '=' 0" highlighted](images/condition-block.png)
+![The Logic block menu with the condition block '0 = 0' highlighted](images/condition-block.png)
 
-Drag that over the `true` part of your `if` block and drop it there. 
+Place it inside the `true` space within the `if..then..else` block.
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_CPPLmMhR29Cg" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
