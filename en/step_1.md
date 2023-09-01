@@ -247,7 +247,7 @@ Drag your <code style="background-color: #1e90ff">show icon</code> block **insid
 
 When you make a change to a code block, the simulator will restart.
 
-You should see that nothing appears on the LEDs.
+You should see that nothing appears on the LEDs after your last change.
 
 Find your <code style="background-color: #dc143c">set</code> block again. Hint: it's inside the <code style="background-color: #1e90ff">on start</code> block. **Change** the `0` to `1`.
 
