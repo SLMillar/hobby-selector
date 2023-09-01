@@ -295,7 +295,7 @@ Click just to the left of the activity variable, or just to the right of the val
 
 Click **Duplicate** to make a copy.
 
-Drag the duplicated <code style="background-color: #00a4a6">=</code> block into the first <code style="background-color: #00a4a6">Logic</code>`else if` block. Then change the number `1` to a `2`.
+Drag the duplicated <code style="background-color: #00a4a6">=</code> block into the first <code style="background-color: #00a4a6">else if</code> block. Then change the number `1` to a `2`.
 
 ![The comparison block in the first if block is right clicked, and a menu appears. The first option, 'Duplicate', is clicked. A new version of the comparison block is created, and dragged into the first else if block.](images/duplicate-comparison.gif)
 
@@ -393,7 +393,7 @@ For the V1 micro:bit, use the <code style="background-color: #d400d4">on button<
 
 --- task ---
 
-Drag the <code style="background-color: #1e90ff">clear screen</code> block from the <code style="background-color: #1E90FF">Basic</code> menu and place it inside the <code style="background-color: #d400d4">on logo pressed</code> block.
+Drag the <code style="background-color: #1e90ff">clear screen</code> block from the <code style="background-color: #1E90FF">Basic</code> menu and place it inside the <code style="background-color: #d400d4">on logo pressed</code> block (or the <code style="background-color: #d400d4">on button</code> block for V1).
 
 <div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_RKbbriA5XD9a" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -433,7 +433,7 @@ When you have downloaded your program to your micro:bit, it will run immediately
 
 You can upgrade your project to make it more engaging:
 
-+ Add more hobbies so you can have a wider range to choose from. 
++ Add more hobbies so you have a wider range to choose from. 
 
 Remember to:
   + Add a different symbol to display for each activity
